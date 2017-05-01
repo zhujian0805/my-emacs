@@ -21,7 +21,7 @@
     - [X] Fuck
     - [X] Shit  
 
-*** [ ]TODO Stuff 02 [100%]
+*** TODO Stuff 02 [100%]
     DEADLINE: <2017-05-02 二> SCHEDULED: <2017-05-01 一>
     - [X] jj
     - [X] jj
