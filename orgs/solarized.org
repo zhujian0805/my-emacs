@@ -1,0 +1,23 @@
+#+INFOJS_OPT: view:t toc:t ltoc:t mouse:underline buttons:0 path:http://thomasf.github.io/solarized-css/org-info.min.js
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="http://thomasf.github.io/solarized-css/solarized-dark.css">
+
+
+
+* Meeting of minutes for week of <2017-04-24 一> 
+
+** Member1 
+    
+*** Working stuff 01 [66%]
+    - [-] Testing
+      - [X] abc
+      - [ ] def
+    - [X] Fuck
+    - [X] Shit  
+
+*** TODO Stuff 02 [100%]
+    DEADLINE: <2017-05-02 二> SCHEDULED: <2017-05-01 一>
+    - [X] jj
+    - [X] jj
+    - [X] Item1
+      
+      
