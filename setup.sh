@@ -19,5 +19,14 @@
 
 set -o nounset                              # Treat unset variables as an error
 
-ln -sf ~/my-emacs/.spacemacs.d/ ~
+if [ -f ~/.spacemacs ]
+then
+    mv ~/.spacemacs ~/.spacemacs.$(date +%Y%m%d)
+fi
 
+if [ -f ~/.emacs ]
+then
+    mv ~/.emacs ~/.emacs.$(date +%Y%m%d)
+fi
+
+ln -sf ~/my-emacs/.spacemacs.d/ ~
