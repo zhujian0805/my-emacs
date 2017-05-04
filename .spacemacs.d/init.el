@@ -325,6 +325,7 @@ you should place your code here."
   (push "~/.spacemacs.d/customs/" load-path)
   (require 'customs)
   (require 'org-line-break)
+  (require 'you-dao)
   ( setq package-check-signature nil
          dotspacemacs-elpa-https nil)
   )
