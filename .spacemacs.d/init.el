@@ -43,6 +43,7 @@ values."
      ;; ----------------------------------------------------------------
      helm
      auto-completion
+     perl-completion
      better-defaults
      emacs-lisp
      git
