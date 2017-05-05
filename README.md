@@ -3,3 +3,6 @@ http://develop.spacemacs.org/doc/FAQ.html#common
 
 # Space Docs
 https://github.com/syl20bnr/spacemacs/tree/master/doc
+
+# Orgmode doc
+http://orgmode.org/org.html
