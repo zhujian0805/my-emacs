@@ -329,6 +329,7 @@ you should place your code here."
   (require 'org-line-break)
   (require 'you-dao)
   ( setq package-check-signature nil
+         org-export-preserve-breaks 1 ;; this non-nil value will preserve new lines
          dotspacemacs-elpa-https nil)
   )
 
