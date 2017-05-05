@@ -323,6 +323,7 @@ explicitly specified that a variable should be set before a package is loaded,
 you should place your code here."
   (xterm-mouse-mode -1)
   (setq dotspacemacs-configuration-layer-path '"~/.spacemacs.d/layers")
+  (add-hook 'org-mode-hook (lambda () (setq truncate-lines t)))
   (push "~/.spacemacs.d/customs/" load-path)
   (require 'customs)
   (require 'org-line-break)
