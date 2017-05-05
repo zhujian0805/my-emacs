@@ -329,7 +329,6 @@ you should place your code here."
   (require 'you-dao)
   ( setq package-check-signature nil
          dotspacemacs-elpa-https nil)
-  (global-set-key (kbd "C-y") 'youdao-dictionary-search)
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
