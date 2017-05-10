@@ -330,6 +330,7 @@ you should place your code here."
   (require 'you-dao)
   ( setq package-check-signature nil
          org-export-preserve-breaks 1 ;; this non-nil value will preserve new lines
+         (setq powerline-default-separator 'arrow)
          dotspacemacs-elpa-https nil)
   )
 
