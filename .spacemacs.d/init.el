@@ -335,6 +335,7 @@ you should place your code here."
          imenu-list-position 'left
          neo-window-position 'right
          imenu-list-size '0.15
+         neo-theme (if (display-graphic-p) 'icons 'arrow)
          dotspacemacs-elpa-https nil)
   )
 
