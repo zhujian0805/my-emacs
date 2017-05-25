@@ -332,6 +332,7 @@ you should place your code here."
          org-export-preserve-breaks 1 ;; this non-nil value will preserve new lines
          powerline-default-separator 'arrow
          imenu-list-position 'left
+         neo-window-position 'left
          imenu-list-size '0.15
          dotspacemacs-elpa-https nil)
   )
