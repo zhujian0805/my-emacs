@@ -58,5 +58,12 @@ Each entry is either:
       - A list beginning with the symbol `recipe' is a melpa
         recipe.  See: https://github.com/milkypostman/melpa#recipe-format")
 
+(defun customs/init-youdao-dictionary ()
+  (use-package youdao-dictionary
+    :deter t
+    :init
+    (spacemacs/set-leader-keys "yd" 'youdao-dictionary-search)
+    )
+  )
 
 ;;; packages.el ends here
