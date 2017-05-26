@@ -332,10 +332,12 @@ you should place your code here."
   (require 'you-dao)
   ( setq package-check-signature nil
          org-export-preserve-breaks 1 ;; this non-nil value will preserve new lines
+         inhibit-splash-screen 1 ;; Skip splash screen
          powerline-default-separator 'arrow
          imenu-list-position 'left
          neo-window-position 'right
          imenu-list-size '0.15
+         cursor-type 'bar
          neo-theme (if (display-graphic-p) 'icons 'arrow)
          dotspacemacs-elpa-https nil)
   )
