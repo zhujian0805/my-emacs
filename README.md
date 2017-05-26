@@ -6,3 +6,6 @@ https://github.com/syl20bnr/spacemacs/tree/master/doc
 
 # Orgmode doc
 http://orgmode.org/org.html
+
+# Notes
+https://bigstair.com/2016/12/remap-key-bindings-in-spacemacs/
