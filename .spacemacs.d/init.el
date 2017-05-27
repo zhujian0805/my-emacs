@@ -341,7 +341,8 @@ you should place your code here."
          cursor-type 'bar
          neo-theme (if (display-graphic-p) 'icons 'arrow)
          dotspacemacs-elpa-https nil)
-         (define-key evil-normal-state-map (kbd "D") 'youdao-dictionary-search)
+         ;; define customs key bindings here
+         (define-key evil-normal-state-map (kbd "C-y") 'youdao-dictionary-search)
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
