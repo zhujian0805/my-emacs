@@ -49,7 +49,7 @@ values."
      markdown
      imenu-list
      org
-     customs
+     ;; customs
      ;; (shell :variables
      ;;        shell-default-height 30
      ;;        shell-default-position 'bottom)
