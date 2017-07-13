@@ -339,7 +339,7 @@ you should place your code here."
   (require 'customs)
   (require 'org-line-break)
   (require 'you-dao)
-  ;;(elpy-enable)
+  (elpy-enable)
   ( setq package-check-signature nil
          org-export-preserve-breaks 1 ;; this non-nil value will preserve new lines
          inhibit-splash-screen 1 ;; Skip splash screen
