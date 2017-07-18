@@ -74,6 +74,7 @@ values."
      py-autopep8
      flymake-python-pyflakes
      flycheck-pyflakes
+     flycheck
                                       )
    ;; A list of packages that cannot be updated.
    dotspacemacs-frozen-packages '()
@@ -344,6 +345,12 @@ you should place your code here."
   (require 'you-dao)
   (elpy-enable)
   (turn-on-fci-mode)
+  (require 'py-autopep8)
+  (add-hook 'elpy-mode-hook 'py-autopep8-enable-on-save)
+  (when (require 'flycheck nil t)
+      (setq elpy-modules (delq 'elpy-module-flymake elpy-modules))
+        (add-hook 'elpy-mode-hook 'flycheck-mode))
+
   ( setq package-check-signature nil
          org-export-preserve-breaks 1 ;; this non-nil value will preserve new lines
          inhibit-splash-screen 1 ;; Skip splash screen
