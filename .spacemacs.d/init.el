@@ -358,8 +358,8 @@ you should place your code here."
   ( setq package-check-signature nil
          org-export-preserve-breaks 1 ;; this non-nil value will preserve new lines
          inhibit-splash-screen 1 ;; Skip splash screen
-         ;;powerline-default-separator-dir '(right . left)
-         powerline-default-separator 'arrow
+         powerline-default-separator-dir '(right . left)
+         ;;powerline-default-separator 'arrow
          powerline-arrow-shape 'curve
          sml/theme 'powerline
          sml/setup
