@@ -68,6 +68,7 @@ values."
      youdao-dictionary
      ycmd
      all-the-icons
+     autopair
      puppet-mode
      terraform-mode
      smart-mode-line
