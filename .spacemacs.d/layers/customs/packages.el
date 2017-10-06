@@ -6,3 +6,14 @@
 
 
     ))
+
+(defun customs/init-perl6-mode ()
+  (use-package perl6-mode
+    :init
+    ))
+
+
+(defun customs/molokai-theme ()
+  (use-package molokai-theme
+    :init
+    ))
