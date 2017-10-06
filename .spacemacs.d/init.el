@@ -64,7 +64,7 @@ values."
    ;; packages, then consider creating a layer. You can also put the
    ;; configuration in `dotspacemacs/user-config'.
    dotspacemacs-additional-packages '(
-     perl-completion
+     ;;perl-completion
      youdao-dictionary
      ycmd
      all-the-icons
