@@ -50,7 +50,9 @@ values."
      git
      markdown
      (imenu-list :variables
-                 imenu-list-position 'left)
+                imenu-list-position 'left
+                imenu-list-size '0.15
+                )
      org
      customs
      ;; (shell :variables
@@ -365,9 +367,7 @@ you should place your code here."
          powerline-default-separator-dir '(right . left)
          ;;powerline-default-separator 'arrow
          powerline-arrow-shape 'curve
-         imenu-list-position 'left
          neo-window-position 'right
-         imenu-list-size '0.15
          cursor-type 'bar
          neo-theme (if (display-graphic-p) 'icons 'arrow)
          dotspacemacs-elpa-https nil)
