@@ -49,7 +49,8 @@ values."
      emacs-lisp
      git
      markdown
-     imenu-list
+     (imenu-list :variables
+                 imenu-list-position 'left)
      org
      customs
      ;; (shell :variables
@@ -364,8 +365,6 @@ you should place your code here."
          powerline-default-separator-dir '(right . left)
          ;;powerline-default-separator 'arrow
          powerline-arrow-shape 'curve
-         sml/theme 'powerline
-         sml/setup
          imenu-list-position 'left
          neo-window-position 'right
          imenu-list-size '0.15
