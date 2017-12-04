@@ -54,7 +54,7 @@ values."
                 imenu-list-size '0.15
                 )
      org
-     customs
+     ;;customs
      ;; (shell :variables
      ;;        shell-default-height 30
      ;;        shell-default-position 'bottom)
@@ -348,7 +348,7 @@ you should place your code here."
   (xterm-mouse-mode -1)
   (add-hook 'org-mode-hook (lambda () (setq truncate-lines t)))
   (push "~/.spacemacs.d/customs/" load-path)
-  (require 'customs)
+  ;;(require 'customs)
   (require 'org-line-break)
   (require 'you-dao)
   (elpy-enable)
