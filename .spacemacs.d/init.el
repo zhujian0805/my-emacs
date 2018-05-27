@@ -349,7 +349,7 @@ you should place your code here."
   (add-hook 'org-mode-hook (lambda () (setq truncate-lines t)))
   (push "~/.spacemacs.d/customs/" load-path)
   ;;(require 'customs)
-  (require 'org-line-break)
+  ;;(require 'org-line-break)
   (require 'you-dao)
   (elpy-enable)
   (turn-on-fci-mode)
