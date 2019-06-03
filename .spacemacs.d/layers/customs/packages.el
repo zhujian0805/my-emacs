@@ -1,8 +1,8 @@
 (defconst customs-packages
   '(
     ;; Get the package from MELPA, ELPA, etc.
-    molokai-theme
     perl6-mode
+    python-x
     ))
 
 (defun customs/init-perl6-mode ()
@@ -11,7 +11,7 @@
     ))
 
 
-(defun customs/init-molokai-theme ()
-  (use-package molokai-theme
+(defun customs/init-python-x ()
+  (use-package python-x
     :init
     ))
