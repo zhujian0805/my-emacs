@@ -55,7 +55,7 @@ values."
                 imenu-list-size '0.15
                 )
      org
-     ;;customs
+     customs
      ;; (shell :variables
      ;;        shell-default-height 30
      ;;        shell-default-position 'bottom)
