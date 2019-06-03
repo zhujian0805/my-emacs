@@ -351,7 +351,6 @@ you should place your code here."
   (push "~/.spacemacs.d/customs/" load-path)
   ;;(require 'customs)
   ;;(require 'org-line-break)
-  (require 'you-dao)
   (elpy-enable)
   (turn-on-fci-mode)
   (require 'py-autopep8)
